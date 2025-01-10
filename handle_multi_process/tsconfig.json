@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2015",        // Set the output JavaScript version to ES2015 or later
+    "lib": ["es2015", "dom"],  // Include ES2015 features and DOM APIs (if needed)
+    "module": "commonjs",      // Use CommonJS modules (default for Node.js)
+    "strict": true,            // Enable strict type checking
+    "esModuleInterop": true,   // Ensure compatibility with ES module imports
+    "outDir": "./dist"         // Output directory for compiled files
+  }
+}
